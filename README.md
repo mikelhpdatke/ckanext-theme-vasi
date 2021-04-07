@@ -1,5 +1,3 @@
-[![Tests](https://github.com//ckanext-theme-tuc/workflows/Tests/badge.svg?branch=main)](https://github.com//ckanext-theme-tuc/actions)
-
 # ckanext-theme-tuc
 
 **TODO:** Put a description of your extension here:  What does it do? What features does it have? Consider including some screenshots or embedding a video!
@@ -19,7 +17,7 @@ Compatibility with core CKAN versions:
 | 2.6 and earlier | not tested    |
 | 2.7             | not tested    |
 | 2.8             | not tested    |
-| 2.9             | not tested    |
+| 2.9             | yes    |
 
 Suggested values:
 
@@ -43,7 +41,7 @@ To install ckanext-theme-tuc:
 
 2. Clone the source and install it on the virtualenv
 
-    git clone https://github.com//ckanext-theme-tuc.git
+    git clone https://gitlab.hrz.tu-chemnitz.de/flwer--tu-chemnitz.de/ckanext-theme-tuc.git
     cd ckanext-theme-tuc
     pip install -e .
 	pip install -r requirements.txt
@@ -73,7 +71,7 @@ None at present
 To install ckanext-theme-tuc for development, activate your CKAN virtualenv and
 do:
 
-    git clone https://github.com//ckanext-theme-tuc.git
+    git clone https://gitlab.hrz.tu-chemnitz.de/flwer--tu-chemnitz.de/ckanext-theme-tuc.git
     cd ckanext-theme-tuc
     python setup.py develop
     pip install -r dev-requirements.txt
@@ -111,7 +109,7 @@ If ckanext-theme-tuc should be available on PyPI you can follow these steps to p
        git commit -a
        git push
 
-6. Tag the new release of the project on GitHub with the version number from
+6. Tag the new release of the project on GitLab with the version number from
    the `setup.py` file. For example if the version number in `setup.py` is
    0.0.1 then do:
 
