@@ -5,8 +5,7 @@ from ckan.lib.plugins import DefaultTranslation
 
 class ThemeTucPlugin(plugins.SingletonPlugin, DefaultTranslation):
     plugins.implements(plugins.IConfigurer)
-
-    # IConfigurer
+    plugins.implements(plugins.ITranslation)
 
     def update_config(self, config):
         toolkit.add_template_directory(config, 'templates')
