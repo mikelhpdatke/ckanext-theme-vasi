@@ -46,7 +46,7 @@ To install ckanext-theme-tuc:
     pip install -e .
 	pip install -r requirements.txt
 
-3. Add `theme-tuc` to the `ckan.plugins` setting in your CKAN
+3. Add `theme_tuc` to the `ckan.plugins` setting in your CKAN
    config file (by default the config file is located at
    `/etc/ckan/default/ckan.ini`).
 
