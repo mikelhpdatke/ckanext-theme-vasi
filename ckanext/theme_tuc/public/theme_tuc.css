@@ -1,3 +1,37 @@
-.masthead {
-    background-color: #ff00ff;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.account-masthead, .module-search, .navbar, .site-footer, .box, .dataset-item {
+    color: white;
+    background-color: #005F50;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #005F50;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #005F50;
+}
+.tag:hover{
+    background-color: #005F50!important;
+}
+
+.dataset-item {
+    border-radius: 5px;
+    padding: 0.5%;
+}
+
+.module-search .search-form, .tags {
+    color: white;
+    background-color: #005F50!important;
+}
+
+.dataset-item  a {
+    color: white;
+}
+
+.stats a, a.visited {
+    color: white !important;
 }
