@@ -26,7 +26,7 @@
    ======================================================================== */
 
 .masthead {
-  background-color: #bfeff5;
+  background-color: #E8E8E8;
 }
 /* The "navigation pills" in the masthead (the links to Datasets,
    Organizations, etc) when the user's pointer hovers over them. */
@@ -67,7 +67,7 @@
 }
 /* Change the background color of the "Popular Tags" box. */
 .homepage .module-search .tags {
-  background-color: #ADDEF7;
+  background-color: #0A73B5;
 }
 /* Remove some padding. This makes the bottom edges of the "Welcome to CKAN"
    and "Search Your Data" boxes line up. */
@@ -95,9 +95,9 @@ body {
 .site-footer,
 .site-footer label,
 .site-footer small {
-  color: rgba(255, 255, 255, 0.6);
+  color: #0F7CBB;
 }
 /* The link texts in the footer. */
 .site-footer a {
-  color: rgba(255, 255, 255, 0.6);
+  color: #0F7CBB;
 }
