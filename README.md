@@ -41,12 +41,12 @@ To install ckanext-theme-vasi:
 
 2. Clone the source and install it on the virtualenv
 
-    git clone https://gitlab.hrz.tu-chemnitz.de/flwer--tu-chemnitz.de/ckanext-theme-vasi.git
+    git clone https://github.com/mikelhpdatke/ckanext-theme-vasi/ckanext-theme-vasi.git
     cd ckanext-theme-vasi
     pip install -e .
 	pip install -r requirements.txt
 
-3. Add `theme_tuc` to the `ckan.plugins` setting in your CKAN
+3. Add `theme_vasi` to the `ckan.plugins` setting in your CKAN
    config file (by default the config file is located at
    `/etc/ckan/default/ckan.ini`).
 
@@ -63,7 +63,7 @@ None at present
 
 	# The minimum number of hours to wait before re-checking a resource
 	# (optional, default: 24).
-	ckanext.theme_tuc.some_setting = some_default_value
+	ckanext.theme_vasi.some_setting = some_default_value
 
 
 ## Developer installation
@@ -71,7 +71,7 @@ None at present
 To install ckanext-theme-vasi for development, activate your CKAN virtualenv and
 do:
 
-    git clone https://gitlab.hrz.tu-chemnitz.de/flwer--tu-chemnitz.de/ckanext-theme-vasi.git
+    git clone https://github.com/mikelhpdatke/ckanext-theme-vasi/ckanext-theme-vasi.git
     cd ckanext-theme-vasi
     python setup.py develop
     pip install -r dev-requirements.txt

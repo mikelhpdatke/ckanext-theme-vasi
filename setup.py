@@ -19,10 +19,10 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
 
-    url='https://gitlab.hrz.tu-chemnitz.de/flwer--tu-chemnitz.de/ckanext-theme-vasi',
+    url='https://github.com/mikelhpdatke/ckanext-theme-vasi/ckanext-theme-vasi',
 
-    author='''Florian Werner''',
-    author_email='''flwer@hrz.tu-chemnitz.de''',
+    author='''TomCatJS''',
+    author_email='''datluongductuan@gmail.com''',
 
     license='AGPL',
 
@@ -46,11 +46,11 @@ setup(
     keywords='''CKAN''',
 
     packages=find_packages(exclude=['contrib', 'docs', 'tests*']),
-        namespace_packages=['ckanext'],
+    namespace_packages=['ckanext'],
 
     install_requires=[
-      # CKAN extensions should not list dependencies here, but in a separate
-      # ``requirements.txt`` file.
+        # CKAN extensions should not list dependencies here, but in a separate
+        # ``requirements.txt`` file.
     ],
 
     # If there are data files included in your packages that need to be
@@ -63,7 +63,7 @@ setup(
 
     entry_points='''
         [ckan.plugins]
-        theme_tuc=ckanext.theme_tuc.plugin:ThemeTucPlugin
+        theme_vasi=ckanext.theme_vasi.plugin:ThemeVasiPlugin
 
         [babel.extractors]
         ckan = ckan.lib.extract:extract_ckan
