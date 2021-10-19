@@ -11,7 +11,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='''ckanext-theme-tuc''',
+    name='''ckanext-theme-vasi''',
 
     version='0.0.1',
 
@@ -19,7 +19,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
 
-    url='https://gitlab.hrz.tu-chemnitz.de/flwer--tu-chemnitz.de/ckanext-theme-tuc',
+    url='https://gitlab.hrz.tu-chemnitz.de/flwer--tu-chemnitz.de/ckanext-theme-vasi',
 
     author='''Florian Werner''',
     author_email='''flwer@hrz.tu-chemnitz.de''',

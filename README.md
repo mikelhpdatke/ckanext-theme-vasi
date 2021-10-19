@@ -1,4 +1,4 @@
-# ckanext-theme-tuc
+# ckanext-theme-vasi
 
 **TODO:** Put a description of your extension here:  What does it do? What features does it have? Consider including some screenshots or embedding a video!
 
@@ -33,7 +33,7 @@ Suggested values:
    For example installing any non-Python dependencies or adding any required
    config settings.
 
-To install ckanext-theme-tuc:
+To install ckanext-theme-vasi:
 
 1. Activate your CKAN virtual environment, for example:
 
@@ -41,8 +41,8 @@ To install ckanext-theme-tuc:
 
 2. Clone the source and install it on the virtualenv
 
-    git clone https://gitlab.hrz.tu-chemnitz.de/flwer--tu-chemnitz.de/ckanext-theme-tuc.git
-    cd ckanext-theme-tuc
+    git clone https://gitlab.hrz.tu-chemnitz.de/flwer--tu-chemnitz.de/ckanext-theme-vasi.git
+    cd ckanext-theme-vasi
     pip install -e .
 	pip install -r requirements.txt
 
@@ -68,11 +68,11 @@ None at present
 
 ## Developer installation
 
-To install ckanext-theme-tuc for development, activate your CKAN virtualenv and
+To install ckanext-theme-vasi for development, activate your CKAN virtualenv and
 do:
 
-    git clone https://gitlab.hrz.tu-chemnitz.de/flwer--tu-chemnitz.de/ckanext-theme-tuc.git
-    cd ckanext-theme-tuc
+    git clone https://gitlab.hrz.tu-chemnitz.de/flwer--tu-chemnitz.de/ckanext-theme-vasi.git
+    cd ckanext-theme-vasi
     python setup.py develop
     pip install -r dev-requirements.txt
 
@@ -84,9 +84,9 @@ To run the tests, do:
     pytest --ckan-ini=test.ini
 
 
-## Releasing a new version of ckanext-theme-tuc
+## Releasing a new version of ckanext-theme-vasi
 
-If ckanext-theme-tuc should be available on PyPI you can follow these steps to publish a new version:
+If ckanext-theme-vasi should be available on PyPI you can follow these steps to publish a new version:
 
 1. Update the version number in the `setup.py` file. See [PEP 440](http://legacy.python.org/dev/peps/pep-0440/#public-version-identifiers) for how to choose version numbers.
 
