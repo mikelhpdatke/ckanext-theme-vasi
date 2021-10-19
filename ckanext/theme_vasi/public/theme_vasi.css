@@ -26,12 +26,12 @@
    ======================================================================== */
 
 .masthead {
-  background-color: #E8E8E8;
+  background-color: white;
 }
 /* The "navigation pills" in the masthead (the links to Datasets,
    Organizations, etc) when the user's pointer hovers over them. */
 .masthead .navigation .nav-pills li a:hover {
-  background-color: #ADDEF7;
+  background-color: #0A73B5;
   color: white;
 }
 /* The "active" navigation pill (for example, when you're on the /dataset page
