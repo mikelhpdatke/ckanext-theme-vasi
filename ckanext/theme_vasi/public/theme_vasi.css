@@ -30,6 +30,11 @@
 }
 /* The "navigation pills" in the masthead (the links to Datasets,
    Organizations, etc) when the user's pointer hovers over them. */
+
+.masthead .navigation .nav-pills li a {
+  color: #0A73B5;
+}
+
 .masthead .navigation .nav-pills li a:hover {
   background-color: #0A73B5;
   color: white;
