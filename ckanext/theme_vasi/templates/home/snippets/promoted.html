@@ -1,9 +1,7 @@
 {% ckan_extends %}
 
-{% set intro = g.site_intro_text %}
 
-<div class="module-content box">
-  <div>
+
     {% if intro %}
       {{ h.render_markdown(intro) }}
     {% else %}
@@ -15,7 +13,6 @@
         {% endtrans %}
       </p>
     {% endif %}
-  </div>
 
   {% block home_image %}
     <section class="featured media-overlay hidden-xs">
@@ -27,4 +24,3 @@
       {% endblock %}
     </section>
   {% endblock %}
-</div>
