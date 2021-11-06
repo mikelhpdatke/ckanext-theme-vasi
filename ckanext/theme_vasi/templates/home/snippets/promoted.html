@@ -1,13 +1,30 @@
 {% ckan_extends %}
 
-{% block home_image_caption %}
-  {{ _("Tổng cục Biển và Hải đảo Việt Nam") }}
-{% endblock %}
+{% set intro = g.site_intro_text %}
 
-{# Replace the promoted image. #}
-{% block home_image_content %}
-  <a class="media-image" href="#">
-    <img src="/Bien-VN.jpg" alt="Featured image"
-         width="420" height="220" />
-  </a>
-{% endblock %}
+<div class="module-content box">
+  <div>
+    {% if intro %}
+      {{ h.render_markdown(intro) }}
+    {% else %}
+      <h1 class="page-heading">{{ _("Welcome to Vietnam Administration of Sea and Islands") }}</h1>
+      <p>
+        {% trans %}        
+        Tổng cục Biển và Hải đảo Việt Nam (Vietnam Administration of Seas anh Islands - VASI) được thành lập theo Nghị định số 25/2008/NĐ-CP ngày 04 tháng 3 năm 2008 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Tài nguyên và Môi trường
+
+        {% endtrans %}
+      </p>
+    {% endif %}
+  </div>
+
+  {% block home_image %}
+    <section class="featured media-overlay hidden-xs">
+      <h2 class="media-heading">{% block home_image_caption %}{{ _("This is a featured section") }}{% endblock %}</h2>
+      {% block home_image_content %}
+        <a class="media-image" href="#">
+          <img class="img-responsive" src="{{ h.url_for_static('/logo.jpg') }}" alt="Placeholder" width="420" height="220" />
+        </a>
+      {% endblock %}
+    </section>
+  {% endblock %}
+</div>
