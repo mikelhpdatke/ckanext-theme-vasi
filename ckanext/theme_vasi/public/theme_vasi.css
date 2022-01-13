@@ -106,3 +106,10 @@ body {
 .site-footer a {
   color: #0F7CBB;
 }
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url("https://giamracnhua.vn/wp-content/uploads/2020/11/Trang-chu-Cover-%C2%A9-naturepl.com-_-Alex-Mustard-_-WWF-scaled.jpg");
+    background-size: cover;
+  }
+}
