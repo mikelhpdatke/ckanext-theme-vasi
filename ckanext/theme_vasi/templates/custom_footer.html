@@ -23,16 +23,7 @@
             {% block footer_links_ckan %}
               <li><a href="http://www.opendefinition.org/okd/"><img src="{{ h.url_for_static('/base/images/od_80x15_blue.png') }}" alt="Open Data"></a></li>
            
-           
-              <li> Đơn vị quản lý: Trung tâm Thông tin, dữ liệu biển và hải đảo quốc gia</li>
-
-              <li> Địa chỉ: 83 Nguyễn Chí Thanh, Đống Đa, Hà Nội</li>
-
-              <li> Email: vasi@monre.gov.vn</li>
-
-              <li>  Điện thoại: 02437735449</li>
-
-              <li> Fax: (243) 7735093</li>
+          
               {% endblock %}
           </ul>
         {% endblock %}
@@ -41,6 +32,18 @@
         {% block footer_lang %}
           {% snippet "snippets/language_selector.html" %}
         {% endblock %}
+
+        <ul>
+          <li> Đơn vị quản lý: Trung tâm Thông tin, dữ liệu biển và hải đảo quốc gia</li>
+
+          <li> Địa chỉ: 83 Nguyễn Chí Thanh, Đống Đa, Hà Nội</li>
+
+          <li> Email: vasi@monre.gov.vn</li>
+
+          <li>  Điện thoại: 02437735449</li>
+
+          <li> Fax: (243) 7735093</li>
+        </ul>
       </div>
     </div>
     {% endblock %}
