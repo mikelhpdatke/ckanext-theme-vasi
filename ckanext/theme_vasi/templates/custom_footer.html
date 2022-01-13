@@ -6,7 +6,7 @@
         {% block footer_nav %}
           <ul class="list-unstyled">
             {% block footer_links %}
-              <li><a href="http://vasi.gov.vn/">{{ _('About {0}').format(g.site_title) }}</a></li>
+              {% comment %} <li><a href="http://vasi.gov.vn/">{{ _('About {0}').format(g.site_title) }}</a></li> {% endcomment %}
               <li>
                 <b>CƠ QUAN CHỦ QUẢN: BỘ TÀI NGUYÊN VÀ MÔI TRƯỜNG</b>
               </li>
@@ -21,7 +21,7 @@
           </ul>
           <ul class="list-unstyled">
             {% block footer_links_ckan %}
-              <li><a href="http://www.opendefinition.org/okd/"><img src="{{ h.url_for_static('/base/images/od_80x15_blue.png') }}" alt="Open Data"></a></li>
+              {% comment %} <li><a href="http://www.opendefinition.org/okd/"><img src="{{ h.url_for_static('/base/images/od_80x15_blue.png') }}" alt="Open Data"></a></li> {% endcomment %}
            
           
               {% endblock %}
@@ -29,9 +29,7 @@
         {% endblock %}
       </div>
       <div class="col-md-4 attribution">
-        {% block footer_lang %}
-          {% snippet "snippets/language_selector.html" %}
-        {% endblock %}
+        
         <div> Đơn vị quản lý: Trung tâm Thông tin, dữ liệu biển và hải đảo quốc gia</div>
 
         <div> Địa chỉ: 83 Nguyễn Chí Thanh, Đống Đa, Hà Nội</div>
@@ -41,6 +39,12 @@
         <div> Điện thoại: 02437735449</div>
 
         <div> Fax: (243) 7735093</div>
+        <div></div>
+
+        {% block footer_lang %}
+          {% snippet "snippets/language_selector.html" %}
+        {% endblock %}
+      
         </ul>
       </div>
     </div>
